@@ -1,6 +1,6 @@
 # bind()
 
-The bind() method creates a new function that, when called, has its this keyword set to the provided value.
+The bind() method creates a new function that, when called, has its `this` keyword set to the provided value.
 It let’s us explicitly define the value of this when calling a function.
 ```
 var pokemon = {
@@ -44,9 +44,9 @@ logPokemon('sushi', 'algorithms'); // Pika Chu  loves sushi and algorithms
 ```
 # call(), apply()
 
-The call() method calls a function with a given this value and arguments provided individually.
+The call() method calls a function with a given `this` value and arguments provided individually.
 
-We can call a function, and explicitly specify what this should reference within the calling function.
+We can call a function, and explicitly specify what `this` should reference within the calling function.
 
 >The call() method does not make a copy of the function it is being called on.
 
